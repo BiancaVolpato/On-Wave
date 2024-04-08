@@ -8,4 +8,4 @@
 
 🔗 URL Repositório GitHub: 
 
-🛬 URL Landpage: 
+🛬 URL Landpage: https://beenanca.github.io/On-Wave/
