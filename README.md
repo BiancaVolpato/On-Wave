@@ -6,6 +6,6 @@
 
 🧑‍💻👩‍💻 Equipe: Bianca Volpato, Camila Pereira, Gustavo Costa e Thaís Dias.
 
-🔗 URL Repositório GitHub: 
+🔗 URL Repositório GitHub: https://github.com/beenanca/On-Wave
 
 🛬 URL Landpage: https://beenanca.github.io/On-Wave/
