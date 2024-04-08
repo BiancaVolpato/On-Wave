@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0; }
+html {
+
+    scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Merriweather', sans-serif;
+        background-color: #E2F4F6;
+        color: #ffffff;
+        }
+
+    header {
+        background-color: #2869E4;
+        color: #fff;
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 0 0 15px 15px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    h1 {
+        font-family: 'Merriweather', sans-serif;
+        font-size: 4rem;
+    }
+
+    .nav {
+        display: flex;
+    }
+
+    .botao_nav {
+        color: #fff;
+        text-decoration: none;
+        margin: 0 15px;
+        font-weight: bold;
+        font-size: 1.2rem;
+        transition: color 0.3s ease;
+    }
+
+    .botao_nav:hover {
+        color: #37b8b8;
+    }
+
+    main {
+        padding: 0px 20px 20px 20px;
+    }
+
+    .content {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .responsive-img {
+        max-width: 500px;
+    }
+
+    section {
+    margin-bottom: 30px;
+    text-align: center;
+    }
+
+    #problema,
+    #nicho,
+    #proposta,
+    #equipe {
+        margin-bottom: 50px;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #2869E4;
+        color: #fff;
+        border: 1px solid #348cff;
+        border-radius: 15px;
+        padding: 20px;
+        width: 70%;
+        align-items: center;
+    }
+
+    h2 {
+        color: #fff;
+        margin-bottom: 10px;
+        font-size: 40px;
+        font-family: 'Merriweather', sans-serif;
+        margin-top: 15px;
+    }
+
+    p {
+        line-height: 1.5;
+        font-size: 25px;
+        text-align: center;
+        margin: 30px;
+    }
+
+    a {
+        color: #2869E4;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+    a:hover {
+        color: #2869E4;
+    }
