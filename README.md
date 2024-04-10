@@ -1,10 +1,12 @@
-🙁 Problema: Falta de atendimento automatizado no site da empresa.
+🙁 Problema: Falta de atendimento automatizado no site da World Surf League, gerando um atendimento mais devagar e sem uma resposta imediata para perguntas frequentes.
 
-🙂 Nicho: Atletas e públicos consumidor de surf que buscam informações mais facíl.
+🙂 Nicho: Atletas de surf, juntamente com o público apaixonado por este esporte, que estão em busca de informações de maneira mais simples e acessível.
 
-🎁 Proposta de Valor: Aprimorar o atendimento com um chat bot para aos atletas e ao público em geral, tornando-o mais eficiente e prático.
+🎁 Proposta de Valor: Aprimorar o atendimento virtual com um chat bot de respostas automáticas com a funcionalidade de responder perguntas frequentes sobre campeonatos, inscrições, atletas, baterias, rankings e classificatórias para aos atletas profissionais, amadores e juniors, tornando mais eficiente e prático a mediação de informações entre sistema e usuários.
 
-🧑‍💻👩‍💻 Equipe: Bianca Volpato, Camila Pereira, Gustavo Costa e Thaís Dias.
+🧑‍💻👩‍💻 Equipe: Bianca Volpato, Camila Pereira, Gustavo Costa e Thais Dias.
+
+🛠️ Recursos/Tecnologias Utilizados:
 
 🔗 URL Repositório GitHub: https://github.com/beenanca/On-Wave
 
