@@ -1,53 +1,158 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+html {
+    scroll-behavior: smooth;
+}
 
-    <title>On Wave</title>
-</head>
+body {
+    font-family: 'Merriweather', sans-serif;
+    background: radial-gradient(368.86% 140.24% at 0.38% 0.66%, #4575BB 0%, #1B2137 100%);
+}
 
-<body>
-    <header>
-        <div class="logo">
-            <h1>On Wave</h1>
-        </div>
-        <ul class="nav">
-         <a class="botao_nav" href="#problema">Problema</a>
-         <a class="botao_nav" href="#nicho">Nicho</a>
-         <a class="botao_nav" href="#proposta">Proposta</a>
-         <a class="botao_nav" href="#equipe">Equipe</a>
-        </ul>
-    
-    </header>
-    <main>
-        <section class="content">
-            <div class="img">
-                <img class="responsive-img" src="https://i.ibb.co/DCK4StX/1a2d5cbf-47fe-42c8-9d6a-ba00526b7abc.png" border="0"></a>
-            <div id="problema">
-                <h2>Problema</h2>
-                <p>Falta de atendimento automatizado no site da World Surf League, gerando um atendimento mais devagar e sem uma resposta imediata para perguntas frequentes.</p>
-            </div>
+header {
+    background-color: #1B2137;
+    color: #B8BFD8;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 0 0 15px 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow:
+        0px 0px 3.8px rgba(0, 0, 0, 0.047),
+        0px 0px 9.6px rgba(0, 0, 0, 0.067),
+        0px 0px 19.5px rgba(0, 0, 0, 0.083),
+        0px 0px 40.2px rgba(0, 0, 0, 0.103),
+        0px 0px 110px rgba(0, 0, 0, 0.15);
+}
 
-            <div id="nicho">
-                <h2>Nicho</h2>
-                <p>Atletas e públicos consumidor de surf que buscam informações mais facíl.</p>
-            </div>
+h1 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 4rem;
+}
 
-            <div id="proposta">
-                <h2>Proposta de Valor</h2>
-                <p>Aprimorar o atendimento virtual com um chat bot de respostas automáticas com a funcionalidade de responder perguntas frequentes sobre campeonatos, inscrições, atletas, baterias, rankings e classificatórias para aos atletas profissionais, amadores e juniors, tornando mais eficiente e prático a mediação de informações entre sistema e usuários.</p>
-            </div>
+.nav {
+    display: flex;
+}
 
-            <div id="equipe">
-                <h2>Equipe</h2>
-                <p>Bianca Volpato, Camila Pereira, Gustavo Costa e Thais Dias.</p>
-            </div>
+.botao_nav {
+    color: #B8BFD8;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
 
-    </main>
+.botao_nav:hover {
+    color: #37b8b8;
+}
 
-</body>
+main {
+    padding: 0px 20px 20px 20px;
+}
 
-</html>
+.content {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.responsive-img {
+    max-width: 500px;
+}
+
+section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#problema,
+#nicho,
+#proposta,
+#equipe {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1B2137;
+    color: #fff;
+    box-shadow:
+        0px 0px 3.8px rgba(0, 0, 0, 0.047),
+        0px 0px 9.6px rgba(0, 0, 0, 0.067),
+        0px 0px 19.5px rgba(0, 0, 0, 0.083),
+        0px 0px 40.2px rgba(0, 0, 0, 0.103),
+        0px 0px 110px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    padding: 20px;  
+    width: 70%;
+    align-items: center;
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'Merriweather', sans-serif;
+    margin-top: 15px;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 25px;
+    text-align: center;
+    margin: 30px;
+}
+
+a {
+    color: #2869E4;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:hover {
+    color: #2869E4;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .botao_nav {
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        width: 100%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .botao_nav {
+        font-size: 1rem;
+    }
+}
